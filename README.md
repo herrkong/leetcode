@@ -11,3 +11,13 @@
 146 LRUCache list unordered_map<>
 
 88  有序数组 合并两个vector  STL vector
+
+# array
+
+26 就地删除重复元素 
+直接用STL sort unique erase做的
+
+122 买卖股票的最佳时机  
+利润最大化就是每次波谷买入波峰卖出
+
+

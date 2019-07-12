@@ -1,3 +1,4 @@
+//删除数组中指定的重复元素
 #include <iostream>
 #include <vector>
 using namespace std ;
