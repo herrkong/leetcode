@@ -53,6 +53,24 @@ unordered_map 存储其中一个nums作为字典
 344 反转字符串  注意字符串处理的一些细节
 strlen() sizeof() str.size()/str.length()
 
-7  整数反转
+7  整数反转  特殊情况最后来处理  stoi()/stol()   to_string()
+
+387 字符串中第一个唯一字符 借助了一个map 判断是不是已经找过了的
+if( n == string::npos )
+{
+    if(mymap[ch]<1)
+        return i ;
+}
+
+242 有效的字母异位词  
+
+8 字符串转换整数 (atoi) 利用stringstream来读取数字
+
+28 实现strStr() 
+int ret = haystack.find(needle);//hahahahahahahha
+
+
+
+
 
 
