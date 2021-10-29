@@ -1,18 +1,44 @@
-# leetcode 刷题
+#### leetcode 
+
+19 删除链表的倒数第N个节点
+头插法 尾插法建立链表 
+
+20 括号匹配 栈的应用
+
+21 合并两个有序链表
 
 27 就地删除数组元素 vector 双指针法
 
 72 最小编辑距离    
 
-20 括号匹配 栈的应用
+88 合并两个有序数组 合并两个vector  STL vector
+
+121 买卖股票的最佳时机
+
+124 二叉树的最大路径和
+
 
 127 单词接龙 BFS广度优先搜索
 
+141 判断链表是否有环
+
 146 LRUCache list unordered_map<>
 
-88  有序数组 合并两个vector  STL vector
+204 查找所有素数n
 
-# array
+206 反转链表
+
+1114  线程同步 协程同步
+
+c++ go
+waitgroup + mutex
+waitgroup wg.Wait() wg.Add() wg.Done() 
+mutex lock.Lock()  defer lock.UnLock()
+
+
+
+#### c++
+##### array
 
 26 就地删除重复元素 
 直接用STL sort() unique() erase()做的
@@ -48,7 +74,7 @@ unordered_map 存储其中一个nums作为字典
 
 48 旋转图像  二维数组 先求装置矩阵 再翻转每一行
 
-# string
+###### string
 
 344 反转字符串  注意字符串处理的一些细节
 strlen() sizeof() str.size()/str.length()
