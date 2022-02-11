@@ -1,0 +1,8 @@
+
+
+
+CREATE TABLE  Person 
+    (Id INT NOT NULL PRIMARY KEY,
+    Email VARCHAR(50) NOT NULL )
+
+

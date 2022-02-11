@@ -65,7 +65,10 @@ int main()
    // int val = 1 ;
    
   // 测试用例3 
-    vector<int>  nums = {3,3};
+    vector<int>  nums;
+    nums[0] = 3;
+    nums[1] = 2;
+    nums[2] = 4;
     int val = 3 ;
 
     Solution solution;

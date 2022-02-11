@@ -72,6 +72,6 @@ int main() {
 }
 
 
-
+ update user set password=password('darwin') where user='root' and host='localhost'; 
 
 
